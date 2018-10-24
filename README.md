@@ -1,9 +1,7 @@
-# react-webpack-boilerplate
-# A starter webpack project for React
+# A starter webpack project for React for exercise purpose and to build web applications
 
 This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
 
-* Fork this repo
 * Rename your repo according to the app you're building
 
 ```sh

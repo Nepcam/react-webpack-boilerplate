@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-react-webpack",
+  "name": "react-webpack-boilerplate",
   "version": "0.2.1",
   "description": "A webpack React starter",
-  "repository": "https://github.com/nepcam/react-webpack-boilerplate.git",
+  "repository": "https://github.com/Nepcam/react-webpack-boilerplate",
   "main": "server/index.js",
   "author": "Cameron Nepe",
   "license": "ISC",
