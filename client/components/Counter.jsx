@@ -7,6 +7,7 @@ class Counter extends React.Component {
         this.state = {
             count: 0
         }
+        this.incrementCount = this.incrementCount.bind(this)
     }
 
     incrementCount () {
@@ -16,11 +17,14 @@ class Counter extends React.Component {
     }
 
     render () {
-        setTimeout(() => {
-            this.incrementCount()
-        }, 1000)
+        // setTimeout(() => {
+        //     this.incrementCount()
+        // }, 1000)
         return (
-            <h1>The current count is {this.state.count} winning</h1>
+            <div>
+                <h1>The current count is {this.state.count} winning</h1>
+                <button onClick={this.incrementCount}>Increment</button>
+            </div>
         )
     }
 }
