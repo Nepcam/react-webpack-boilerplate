@@ -11,7 +11,7 @@ class Counter extends React.Component {
 
     incrementCount () {
         this.setState({
-            count: this.state.count + 1
+            count: this.state.count + 2
         })
     }
 
@@ -20,7 +20,7 @@ class Counter extends React.Component {
             this.incrementCount()
         }, 1000)
         return (
-            <p>The current count is {this.state.count}</p>
+            <h1>The current count is {this.state.count} winning</h1>
         )
     }
 }
