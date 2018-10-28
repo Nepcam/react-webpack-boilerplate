@@ -22,8 +22,8 @@ class Counter extends React.Component {
         // }, 1000)
         return (
             <div>
-                <h1>The current count is {this.state.count} winning</h1>
-                <button onClick={this.incrementCount}>Increment</button>
+                <h1 className="title is-2">The current count is {this.state.count} winning</h1>
+                <button className="button is-success" onClick={this.incrementCount}>Increment</button>
             </div>
         )
     }

@@ -4,8 +4,8 @@ import Counter from './Counter'
 
 const App = () => {
   return (
-    <div className="body" color="orange">
-      <h1>React development in effect!</h1>
+    <div>
+      <h1 className="title is-1">React development in effect!</h1>
       <Counter />
     </div>
   )
