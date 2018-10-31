@@ -12,7 +12,7 @@ class Counter extends React.Component {
 
     incrementCount () {
         this.setState({
-            count: this.state.count + 2
+            count: this.state.count + 1
         })
     }
 
