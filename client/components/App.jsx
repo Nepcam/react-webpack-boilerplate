@@ -13,7 +13,7 @@ class App extends React.Component {
     this.valueChanged = this.valueChanged.bind(this)
   }
 
-  valuechanged (newValue) {
+  valueChanged (newValue) {
     this.setState({
       color: newValue >= 400 ? 'green' : 'red'
     })
