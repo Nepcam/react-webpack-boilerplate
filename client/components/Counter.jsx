@@ -28,9 +28,6 @@ class Counter extends React.Component {
     }
 
     render () {
-        // setTimeout(() => {
-        //     this.incrementCount()
-        // }, 1000)
         return (
             <div className='counter'>
                 <div>{this.state.count}</div>

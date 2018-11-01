@@ -10,7 +10,7 @@ class App extends React.Component {
     this.state = {
       color: 'green'
     }
-    this.valuechanged = this.valuechanged.bind(this)
+    this.valueChanged = this.valueChanged.bind(this)
   }
 
   valuechanged (newValue) {
@@ -23,7 +23,7 @@ class App extends React.Component {
     return (
       <div className='app'>
         <h1 style={this.state}>React Counter</h1>
-        <Counter initialValue={initialValue} valueChanged={this.valuechanged} />
+        <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
     )
   }
