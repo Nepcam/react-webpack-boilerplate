@@ -2,7 +2,7 @@ import React from 'react'
 
 import Counter from './Counter'
 
-const initialValue = 444
+const initialValue = 400
 
 class App extends React.Component {
   constructor (props) {
