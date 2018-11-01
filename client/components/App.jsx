@@ -2,13 +2,33 @@ import React from 'react'
 
 import Counter from './Counter'
 
-const App = () => {
-  return (
-    <div>
-      <h1 className="title is-1">React development in effect!</h1>
-      <Counter />
-    </div>
-  )
+const initialValue = 444
+
+class App extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      color: 'green'
+    }
+    this.valuechanged = this.valuechanged.bind(this)
+  }
+
+  valuechanged (newValue) {
+    this.setState({
+      color: newValue >= 400 ? 'green' : 'red'
+    })
+  }
+
+  render () {
+    return (
+      <div className='app'>
+        <h1 style={this.state}>React Counter</h1>
+        <Counter initialValue={initialValue} valueChanged={this.valuechanged} />
+      </div>
+    )
+  }
 }
+
+
 
 export default App
