@@ -22,7 +22,7 @@ class App extends React.Component {
   render () {
     return (
       <div className='app'>
-        <h1 style={this.state}>React Counter</h1>
+        <h1 className='title is-1' style={this.state}>React Counter</h1>
         <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
     )
