@@ -32,7 +32,7 @@ class Counter extends React.Component {
             <div className='counter'>
                 <div>{this.state.count}</div>
                 <button className="button is-success is-rounded" onClick={this.incrementCount}>+</button>
-                <button className="button is-success is-rounded" onClick={this.decrementCount}>-</button>
+                <button className="button is-danger is-rounded" onClick={this.decrementCount}>-</button>
             </div>
         )
     }
