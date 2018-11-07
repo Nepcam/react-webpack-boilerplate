@@ -5,7 +5,7 @@ class Counter extends React.Component {
         super(props)
 
         this.state = {
-            count: 400
+            count: 0
         }
         this.incrementCount = this.incrementCount.bind(this)
         this.decrementCount = this.decrementCount.bind(this)

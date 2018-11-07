@@ -2,7 +2,7 @@ import React from 'react'
 
 import Counter from './Counter'
 
-const initialValue = 400
+const initialValue = 0
 
 class App extends React.Component {
   constructor (props) {
@@ -15,7 +15,7 @@ class App extends React.Component {
 
   valueChanged (newValue) {
     this.setState({
-      color: newValue >= 400 ? 'green' : 'red'
+      color: newValue >= 0 ? 'green' : 'red'
     })
   }
 
