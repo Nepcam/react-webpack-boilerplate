@@ -13,4 +13,4 @@ function HelloTemplate (props) {
     )
 }
 
-export default
+export default Hello
