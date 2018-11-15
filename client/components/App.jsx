@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Header from './Header'
 import Counter from './Counter'
 
 const initialValue = 0
@@ -22,7 +23,8 @@ class App extends React.Component {
   render () {
     return (
       <div className='app'>
-        <h1 className='title is-1' style={this.state}>This is a React Counter</h1>
+        <Header/>
+        <h1 className='title is-1' style={this.state}>This is a React Counter </h1>
         <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
     )

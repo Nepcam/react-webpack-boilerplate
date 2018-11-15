@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <h1>
-            Counter App
+            This is my funky Counter App
         </h1>
     )
 }
