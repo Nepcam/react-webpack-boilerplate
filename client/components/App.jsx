@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <div className='app'>
         <Header/>
-        <h1 className='title is-3' style={this.state}>This is a React Counter </h1>
+        <h1 className='title is-3' style={this.state}>Counting </h1>
         <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
     )
