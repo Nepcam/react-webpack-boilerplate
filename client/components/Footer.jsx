@@ -2,9 +2,11 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <h3>
-            Footer 
-        </h3>
+        <div className="title is-1 has text-centered">
+            <h3>
+                I am a Footer 
+            </h3>
+        </div>
     )
 }
 
