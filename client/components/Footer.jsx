@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <h3>
-                I am a Funky Footer 
+                <strong>I am a Funky Footer</strong> 
             </h3>
         </div>
     )
