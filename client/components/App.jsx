@@ -28,7 +28,7 @@ class App extends React.Component {
         <h1 className='title is-3' style={this.state}>Counting </h1>
         <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
-
+      
       <footer className="footer">
         <div className="content has-text-centered">
           <div>
