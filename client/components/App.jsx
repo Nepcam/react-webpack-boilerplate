@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import Counter from './Counter'
+import Navigation from './Navigation';
 
 const initialValue = 0
 
@@ -37,7 +38,10 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        
+
+    <div>
+      <Navigation />  
+    </div>    
   }
 }
 
