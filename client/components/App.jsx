@@ -29,14 +29,15 @@ class App extends React.Component {
         <Counter initialValue={initialValue} valueChanged={this.valueChanged} />
       </div>
     )
-      // <footer className="footer">
-      //   <div className="content has-text-centered">
-      //     <div>
-      //       <Footer />
-      //     </div>
-      //   </div>
-      // </footer>
-    
+      <footer>
+        <div className="footer">
+          <div className="content has-text-centered">
+            <div>
+              <Footer />
+            </div>
+          </div>
+        </div>
+        
   }
 }
 
