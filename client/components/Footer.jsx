@@ -1,3 +1,5 @@
+// setting up a footer component
+
 import React from 'react'
 
 const Footer = () => {
