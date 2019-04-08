@@ -6,7 +6,8 @@ const Footer = () => {
     return (
         <div>
             <h3>
-                <strong>I am a Funky Footer</strong> 
+                <strong>I am a Funky Footer</strong>
+                <p>And I am based at the bottom of the page</p> 
             </h3>
         </div>
     )
