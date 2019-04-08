@@ -1,10 +1,10 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "boilerplate-react-webpack",
   "version": "0.2.1",
   "description": "A webpack React starter",
-  "repository": "https://github.com/Nepcam/react-webpack-boilerplate",
+  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
-  "author": "Cameron Nepe",
+  "author": "EDA",
   "license": "ISC",
   "scripts": {
     "start": "webpack && node server",
@@ -26,7 +26,6 @@
     ]
   },
   "dependencies": {
-    "bulma": "^0.7.2",
     "express": "^4.16.2"
   },
   "devDependencies": {
